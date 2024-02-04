@@ -16,7 +16,8 @@ let validityDate = document.querySelector("#validityDate");
 let signn = document.getElementsByClassName("signn");
 
 // =========test==========
-
+let one = toString(fullName.value);
+let two = emailAddress.value
 
 // ============fire triger============
 btn.addEventListener("click" , function(){
@@ -30,7 +31,19 @@ btn.addEventListener("click" , function(){
     let m = maindate.getMonth() + 3;
     let d = maindate.getDate();
     validityDate.innerHTML = d + "-" + m + "-" + y;
-    console.log(sig.value);
-    console.log(signn);
-    console.log(sig);
+
+    console.log(fullName.value);
+    console.log(mailInput.value);
+
+    // =========object==========
+
+    // =========object=====
+
+
+
+    // ======arrayy==========
+  
+    
 })
+
+
