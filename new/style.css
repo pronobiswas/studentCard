@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section2nd{
+    width: 100%;
+    height: 110vh;
+    background-color: aliceblue;
+}
+.flexbox{
+    width: 100%;
+    height: 100%;
+    background: gray;
+    align-items: center;
+    justify-content: center;
+}
+.formBox{
+    padding: 50px 60px;
+    border: 2px solid red;
+}
